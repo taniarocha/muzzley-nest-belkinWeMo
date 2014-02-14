@@ -60,3 +60,7 @@ Use your muzzley application and insert the activity id to connect and view your
 
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/taniarocha/muzzley-nest-belkinwemo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
