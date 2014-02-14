@@ -32,6 +32,9 @@ Pay attention on the muzzley events on the Javascript file. These events will re
 	// change the away status to true
 	muzzley.send("nest_setAway", {value: true} );
 
+	// set belkin status value to 1
+	muzzley.send("belkin", {value:1});
+
 </code></pre>
 
 On the interface connected with the activity, the clickable areas are the lamp and the nest, that shows you the info of devices and allows you to control them.
