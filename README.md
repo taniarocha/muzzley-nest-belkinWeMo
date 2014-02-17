@@ -41,7 +41,8 @@ On the interface connected with the activity, the clickable areas are the lamp a
 
 
 ###APLICATION
-Go to muzzley-nest.js and change the `username` and `password` variables to you Nest account data.
+
+On app folder edit the vars.json with your Nest account data, `muzzley-nest.js` will load this data to their variables.
 The `widgetUuid`, `token` and `activityId` variables are filled with real data from [muzzley site](http://www.muzzley.com/), so you can immediately test the demo.
 
 Installing packages:
