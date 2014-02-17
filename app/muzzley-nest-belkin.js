@@ -26,33 +26,6 @@ wemoNode.setBindAddress('0.0.0.0');
 // global object to store the discovered Belkin WeMo
 var obj;
 
-// a function to load json data from a file
-var fs = require('fs');
-function loadJSONfile (filename, encoding) {
-  try {
-    if (typeof (encoding) == 'undefined') encoding = 'utf8';
-    var contents = fs.readFileSync(filename, encoding);
-    return JSON.parse(contents);
-    
-  } catch (err) {
-    console.log(err);
-  }
-} // loadJSONfile
-
-var myData = loadJSONfile('./vars.json');
-//create a vars.json file with your data
-
-if(myData){
-  console.log(' - My personal data loaded ');
-  //console.log(myData);
-  username = myData.nestUsername;
-  password = myData.nestPassword;
-  // data was successfully loaded, init muzzley connection
-  connectMuzzley();
-}else{
-  console.log(' - My personal data not load');
-}
-
 
 function connectMuzzley(){
   muzzley.connectApp(options, function(err, activity) {

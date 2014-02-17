@@ -1,10 +1,10 @@
 #Nest & Belkin WeMo Interface
 
-The Nest & Belkin WeMo allows you to control the Belkin WeMo Switch and the Nest thermostat on the same interface.
+The Nest & Belkin WeMo Interface allows you to control the Belkin WeMo Switch and the Nest thermostat on the same interface.
 
 The Belkin integration was based on a [github](https://github.com/) project developed in node [muzzley-BelkinWeMo](https://github.com/djsb/muzzley-BelkinWeMo). To integrate with Belkin all i needed was a lamp, the Belkin and the code of [muzzley-BelkinWeMo](https://github.com/djsb/muzzley-BelkinWeMo).
 <br><br>
-To integrate with Nest there are no official api, but on github exists a unofficial api in node: [unofficial-nodejs-nest](https://github.com/wiredprairie/unofficial_nodejs_nest), which is very simple to use. After that you have to install and configure the Nest. In my case there was no possibility of doing the installation with the thermostat, but I could see the changes in the Nest display. Turn on your Nest and configure the settings, location, wi-fi, etc. Go to [home.nest.com](https://home.nest.com/) to configure you account and set on account setting of your Nest.
+To integrate with Nest there are no official api, but on github exists a unofficial api in node: [unofficial-nodejs-nest](https://github.com/wiredprairie/unofficial_nodejs_nest), which is very simple to use. After that you have to install and configure the Nest. In my case there was no possibility of doing the installation with the thermostat, but I could see the changes in the Nest display. Turn on your Nest and configure the settings, location, wi-fi, etc. Go to [home.nest.com](https://home.nest.com/) to configure your account and set on account settings of your Nest.
 <br>After the Nest and Belkin turned on and connected to wi-fi, you are ready to clone the code of this project. 
 
 ### WIDGET 
@@ -41,6 +41,9 @@ On the interface connected with the activity, the clickable areas are the lamp a
 
 
 ###APLICATION
+Go to muzzley-nest.js and change the `username` and `password` variables to you Nest account data.
+The `widgetUuid`, `token` and `activityId` variables are filled with real data from [muzzley site](http://www.muzzley.com/), so you can immediately test the demo.
+
 Installing packages:
 	<pre><code>npm install</code></pre>
 
@@ -61,9 +64,7 @@ Use your muzzley application and insert the activity id to connect and view your
 
 
 
-
-
-
+<br>
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/taniarocha/muzzley-nest-belkinwemo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
