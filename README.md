@@ -1,5 +1,7 @@
 #Nest & Belkin WeMo Interface
 
+![](https://github.com/taniarocha/muzzley-nest-belkinWeMo/blob/master/imgs/imageBelkin1.jpg?raw=true)&nbsp; ![](https://github.com/taniarocha/muzzley-nest-belkinWeMo/blob/master/imgs/imageNest.jpg?raw=true)
+
 The Nest & Belkin WeMo Interface allows you to control the Belkin WeMo Switch and the Nest thermostat on the same interface.
 
 The Belkin integration was based on a [github](https://github.com/) project developed in node [muzzley-BelkinWeMo](https://github.com/djsb/muzzley-BelkinWeMo). To integrate with Belkin all i needed was a lamp, the Belkin and the code of [muzzley-BelkinWeMo](https://github.com/djsb/muzzley-BelkinWeMo).
@@ -8,6 +10,9 @@ To integrate with Nest there are no official api, but on github exists a unoffic
 <br>After the Nest and Belkin turned on and connected to wi-fi, you are ready to clone the code of this project. 
 
 ### WIDGET 
+
+![](https://github.com/taniarocha/muzzley-nest-belkinWeMo/blob/master/imgs/interface1.jpg?raw=true)&nbsp; ![](https://github.com/taniarocha/muzzley-nest-belkinWeMo/blob/master/imgs/interface2.jpg?raw=true)&nbsp; ![](https://github.com/taniarocha/muzzley-nest-belkinWeMo/blob/master/imgs/interface3.jpg?raw=true)
+
 The code of widget folder is the same that is on [muzzley site](http://www.muzzley.com/), you can modify this code and do your own widget.
 Pay attention on the muzzley events on the Javascript file. These events will receive and send messages to muzzley.
 
@@ -55,6 +60,13 @@ On your shell:
 If all goes well Belkin and Nest devices is detected and the muzzley activity is created. 
 Use your muzzley application and insert the activity id to connect and view your interface.
 
+<br>
+
+Check the demo preview:
+
+[![Demo preview](http://img.youtube.com/vi/QKalnY7e0Gw/0.jpg)](http://www.youtube.com/watch?v=QKalnY7e0Gw)
+
+[http://www.youtube.com/watch?v=QKalnY7e0Gw](http://www.youtube.com/watch?v=QKalnY7e0Gw)
 
 <br><br>
 
